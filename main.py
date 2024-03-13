@@ -69,7 +69,7 @@ iface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    iface.launch(server_port=8000)
+    iface.launch(server_name="0.0.0.0", server_port=8000,share=True)
     
 # class Question(BaseModel):
 #     query_vector: str
